@@ -1,0 +1,65 @@
+html, body {
+margin:0;
+padding:0;
+line-height:0;
+overflow:hidden;
+background-color:#000;
+}
+
+canvas {
+cursor:pointer;
+}
+
+.hidden {
+display:none;
+}
+
+.about {
+position:absolute;
+bottom:15px;
+right:15px;
+padding:0 5px;
+color:#eee;
+background-color:#1a1a1a;
+border-bottom:1px #2C2C2C solid;
+font: 11px/27px 'Lucida Grande', sans-serif;
+text-shadow: 0 -1px 0 #111;
+opacity:0.3;
+cursor:default;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-transition:opacity 1s;
+-moz-transition:opacity 1s;
+-o-transition:opacity 1s;
+-ms-transition:opacity 1s;
+transition:opacity 1s;
+}
+
+.about:hover {
+opacity:1;
+}
+
+.about span {
+color:#c00;
+}
+
+.about img {
+margin:0 2px;
+vertical-align:middle;
+border-width:0;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+color:#2FA1D6;
+text-decoration:underline;
+}
+
+a:hover, a:active {
+text-decoration:none;
+}
+.dg { display:none;
+}

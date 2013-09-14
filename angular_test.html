@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="angularjs-starter">
+ 	<head lang="en">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+		<script src="http://code.angularjs.org/1.0.3/angular-resource.min.js"></script>
+		<script src="app.js"></script>
+		<script src="services.js"></script>
+	</head>
+	<body ng-controller="visualizer">
+		<div>
+			<label>Test:</label>
+			<input type="text" ng-model="isworking" placeholder="type something here">
+			You typed: {{isworking}}
+			<hr>
+		</div>
+		<div>
+			<label>socket data</label><br/>
+			{{data}}
+		</div>
+	</body>
+</html>
