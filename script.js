@@ -1,11 +1,11 @@
 // variables definition
 
 var swirl = {
-      rotationSpeed: 50,
-      rotationGap: 50,
+      rotationSpeed: 5,
+      rotationGap: 100,
       circleAmount: 10,
       lineWidth: 0,
-      colorSpeed: 50,
+      colorSpeed: 5,
       colorSet: 'colorDepth',
       xor: false,
       togglePreset: function() {
